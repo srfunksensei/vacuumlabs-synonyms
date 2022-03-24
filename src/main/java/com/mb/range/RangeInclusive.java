@@ -1,6 +1,4 @@
-package com.mb.synonyms;
-
-import com.mb.range.Range;
+package com.mb.range;
 
 public class RangeInclusive<T extends Number & Comparable<? super T>> implements Range<T> {
     private final T min, max;
