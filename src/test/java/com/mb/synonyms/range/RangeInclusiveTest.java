@@ -1,5 +1,7 @@
-package com.mb.range;
+package com.mb.synonyms.range;
 
+import com.mb.synonyms.range.Range;
+import com.mb.synonyms.range.RangeInclusive;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

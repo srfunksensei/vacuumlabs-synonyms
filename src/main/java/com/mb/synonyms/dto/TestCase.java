@@ -1,4 +1,4 @@
-package com.mb.dto;
+package com.mb.synonyms.dto;
 
 import java.util.List;
 
