@@ -78,3 +78,24 @@ In the first test-case there are 6 queries:
 1. Defined as synonyms by 3rd rule. The case does not matter.
 2. Different.
 
+## Prerequisites
+
+1. Java 11
+2. Maven 3.3 (or higher)
+
+## How to run application
+
+To be able to see the application in action you must follow these steps:
+
+1. run `mvn clean install package`
+2. run `java -jar vacuumlabs-synonyms-<version> --inputFile=<input-file-name> --outputFile=<output-file-name>`
+
+* current `version` is 1.0-SNAPSHOT
+* `input-file-name` is the name of the file which you wish to process (if not provided test file will be used)
+* `output-file-name` is the name of the file where the results will be printed out (if not provided test file will be used)
+
+Once the application is run it will read test cases provided in the file and output result in the output file.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
